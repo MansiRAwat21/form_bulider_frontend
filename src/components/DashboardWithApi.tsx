@@ -32,7 +32,7 @@ import {
 const DashboardWithApi:React.FC<DashboardWithApiProps>  = ({ 
   createNewForm, 
   editForm, 
-  viewSubmissions,
+  // viewSubmissions,
   copyFormUrl 
 }) => {
   // Fetch forms using React Query
