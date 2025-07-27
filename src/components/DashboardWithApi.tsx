@@ -250,7 +250,7 @@ const DashboardWithApi:React.FC<DashboardWithApiProps>  = ({
                       Edit
                     </Button>
                     
-                    <Button
+                    {/* <Button
                       size="sm"
                       variant="outline"
                       onClick={() => viewSubmissions(form._id)}
@@ -258,7 +258,7 @@ const DashboardWithApi:React.FC<DashboardWithApiProps>  = ({
                     >
                       <Eye className="w-3 h-3 mr-1" />
                       View ({form.submissionCount || 0})
-                    </Button>
+                    </Button> */}
                   </div>
 
                   <div className="flex flex-wrap gap-2">
